@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "bootstrap-less": "^3.0.0",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.0",
+    "laravel-elixir": "^5.0.0",
+    "laravel-elixir-livereload": "^1.1.6"
+  },
+  "dependencies": {
+    "forever-monitor": "^1.7.0",
+    "ioredis": "^2.4.0",
+    "laravel-echo": "^1.0.5",
+    "socket.io": "^1.5.0"
+  }
+}
